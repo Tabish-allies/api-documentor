@@ -14,8 +14,9 @@ target/
 .sts4-cache
 
 node_modules/
-dist/
-build/
+docs-portal/node_modules/
+target/
+*.log
 .env
 ### IntelliJ IDEA ###
 .idea
