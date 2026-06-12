@@ -27,8 +27,8 @@ public class OpenApiConfig {
                         + "- Real-time inventory tracking\n"
                         + "- Order lifecycle management\n"
                         + "- Business rule enforcement (stock validation, pricing rules)")
-                .contact(new Contact().name("API Team").email("api-team@company.com"))
-                .license(new License().name("Internal Use Only"));
+                .contact(new Contact().name("API Documentor Contributors").email("your-email@example.com"))
+                .license(new License().name("MIT License").url("https://opensource.org/licenses/MIT"));
 
         return new OpenAPI()
                 .info(info)
